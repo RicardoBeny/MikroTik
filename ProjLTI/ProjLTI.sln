@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLTI", "AppLTI\AppLTI.csproj", "{2B478D75-E612-47EF-97C4-E2FE02CB9991}"
+	ProjectSection(ProjectDependencies) = postProject
+		{65DD0082-6115-4E6F-807F-15EFB603E4BA} = {65DD0082-6115-4E6F-807F-15EFB603E4BA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareDatabaseAPI", "MiddlewareDatabaseAPI\MiddlewareDatabaseAPI.csproj", "{65DD0082-6115-4E6F-807F-15EFB603E4BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B478D75-E612-47EF-97C4-E2FE02CB9991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B478D75-E612-47EF-97C4-E2FE02CB9991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B478D75-E612-47EF-97C4-E2FE02CB9991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B478D75-E612-47EF-97C4-E2FE02CB9991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DD0082-6115-4E6F-807F-15EFB603E4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DD0082-6115-4E6F-807F-15EFB603E4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DD0082-6115-4E6F-807F-15EFB603E4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DD0082-6115-4E6F-807F-15EFB603E4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7A4F05F-47FD-4D5B-874A-39178884630E}
+	EndGlobalSection
+EndGlobal
